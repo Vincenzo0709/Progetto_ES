@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_bus_sv_1943953991 " />
+            <top_module name="cv32e41s_pkg" />
+            <top_module name="dm_pkg" />
+            <top_module name="glbl" />
+            <top_module name="prim_ram_2p_pkg" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="800.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,530.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/testbench/boh/IO_CLK" type="logic">
+      <obj_property name="ElementShortName">IO_CLK</obj_property>
+      <obj_property name="ObjectShortName">IO_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/boh/IO_RST_N" type="logic">
+      <obj_property name="ElementShortName">IO_RST_N</obj_property>
+      <obj_property name="ObjectShortName">IO_RST_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/boh/SW" type="array">
+      <obj_property name="ElementShortName">SW[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/boh/BTN" type="array">
+      <obj_property name="ElementShortName">BTN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BTN[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/boh/LED" type="array">
+      <obj_property name="ElementShortName">LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/boh/u_ucup_top/\genblk1.u_soc /u_core/u_incore/instr_req_o" type="logic">
+      <obj_property name="ElementShortName">instr_req_o</obj_property>
+      <obj_property name="ObjectShortName">instr_req_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/boh/u_ucup_top/\genblk1.u_soc /u_core/u_incore/instr_addr_o" type="array">
+      <obj_property name="ElementShortName">instr_addr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_addr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/boh/u_ucup_top/\genblk1.u_soc /u_core/u_incore/instr_rdata_i" type="array">
+      <obj_property name="ElementShortName">instr_rdata_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_rdata_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/boh/u_ucup_top/\genblk1.u_soc /u_core/bootROM/tcm/mem" type="array">
+      <obj_property name="ElementShortName">mem[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[1023:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/boh/u_ucup_top/\genblk1.u_soc /u_core/u_incore/data_req_o" type="logic">
+      <obj_property name="ElementShortName">data_req_o</obj_property>
+      <obj_property name="ObjectShortName">data_req_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/boh/u_ucup_top/\genblk1.u_soc /u_core/u_incore/data_addr_o" type="array">
+      <obj_property name="ElementShortName">data_addr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/boh/u_ucup_top/\genblk1.u_soc /u_core/u_incore/data_rdata_i" type="array">
+      <obj_property name="ElementShortName">data_rdata_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rdata_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/boh/u_ucup_top/\genblk1.u_soc /u_core/u_incore/data_wdata_o" type="array">
+      <obj_property name="ElementShortName">data_wdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_wdata_o[31:0]</obj_property>
+   </wvobject>
+</wave_config>
